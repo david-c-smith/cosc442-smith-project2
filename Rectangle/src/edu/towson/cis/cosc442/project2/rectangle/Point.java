@@ -13,9 +13,10 @@ public class Point {
 	 *
 	 * @param x the x
 	 * @param y the y
-	 */
-	Point(Double x, Double y) {
-		this.x = y;
-		this.y = y;
+	 **/
+	
+	Point(Double firstPoint, Double secondPoint) {
+		this.x = firstPoint;
+		this.y = secondPoint;
 	}
 }
